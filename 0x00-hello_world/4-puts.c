@@ -1,12 +1,10 @@
 #include<stdio.h>
-	/**
-	 *main - Entry point
-	 *
-	 * Description - prints Programming is like puzzlee
-	 *@parameter: No parameters
-	 *
-	 * Return: Always 0 (Success)
-	 */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ * Description - Printing lines
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
