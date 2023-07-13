@@ -2,7 +2,7 @@
 	/**
 	 *main - Entry point
 	 *
-	 *Description - prints Programming is like building a multilingual puzzle
+	 * Description - prints Programming is like puzzlee
 	 *@parameter: No parameters
 	 *
 	 * Return: Always 0 (Success)
