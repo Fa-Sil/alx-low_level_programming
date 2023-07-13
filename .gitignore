@@ -1,0 +1,27 @@
+# Ignore compiled object files and executables
+*.o
+*.out
+
+# Ignore generated files
+*.class
+*.jar
+*.war
+*.zip
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system and environment-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore dependencies and package files
+/node_modules/
+/package-lock.json
+/yarn.lock
