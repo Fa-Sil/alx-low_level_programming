@@ -9,15 +9,12 @@
 int main(void)
 {
 	int n;
-	char l = 'a';
+	char l;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	while (l <= 'z')
+	for (l = 'a'; l <= 'z'; l++)
 	{
 		putchar(l);
 		putchar('\n');
-		++l;
 	}
 	return (0);
 }
