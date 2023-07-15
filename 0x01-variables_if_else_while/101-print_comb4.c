@@ -15,11 +15,11 @@ int main(void)
 	{
 		for (j = 0; j <= 10; j++)
 		{
-			if (i > j)
+			if (i < j)
 				break;
 			for (k = 0; k <= 10; k++)
 			{
-				if (j > k)
+				if (j < k)
 					break;
 				printf("%d%d%d", i, j, k);
 			}
