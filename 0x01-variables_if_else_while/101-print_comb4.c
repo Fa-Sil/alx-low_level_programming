@@ -17,8 +17,9 @@ int main(void)
 		{
 			for (k = (j + 1); k < 10; k++)
 			{
-				printf("%d%d%d, ", i, j, k);
+				printf("%d%d%d", i, j, k);
 			}
+			printf(", ");
 		}
 	}
 	return (0);
