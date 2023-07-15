@@ -17,9 +17,9 @@ int main(void)
 		{
 			for (k = (j + 1); k < 10; k++)
 			{
-				putchar('i');
-				putchar('j');
-				putchar('k');
+				putchar(48 + i);
+				putchar(48 + j);
+				putchar(48 + k);
 				if (i == 7 && j == 8 && k == 9)
 					break;
 				putchar(',');
