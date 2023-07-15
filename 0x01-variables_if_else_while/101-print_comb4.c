@@ -19,10 +19,14 @@ int main(void)
 			{
 				if (i == 7 && j == 8 && k == 9)
 				{
-					putchar("%d%d%d ", i, j, k);
+					putchar('i');
+					putchar('j');
+					putchar('k');
 					break;
 				}
-				putchar("%d%d%d, ", i, j, k);
+				putchar(i);
+				putchar(j);
+				putchar(k);
 			}
 		}
 	}
