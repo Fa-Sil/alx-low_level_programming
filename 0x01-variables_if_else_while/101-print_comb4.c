@@ -17,9 +17,10 @@ int main(void)
 		{
 			for (k = (j + 1); k < 10; k++)
 			{
-				printf("%d%d%d", i, j, k);
+				if (i == 7 && j == 8 && k == 9)
+					break;
+				printf("%d%d%d ", i, j, k);
 			}
-			printf(", ");
 		}
 	}
 	return (0);
