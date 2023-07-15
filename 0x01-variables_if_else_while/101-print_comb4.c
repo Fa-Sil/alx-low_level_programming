@@ -13,15 +13,15 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j <= 10; j++)
+		for (j = i; j <= 10; j++)
 		{
 			if (i < j)
 				break;
-			for (k = 0; k <= 10; k++)
+			for (k = j; k <= 10; k++)
 			{
 				if (j < k)
 					break;
-				printf("%d%d%d", i, j, k);
+				printf("%d%d%d, ", i, j, k);
 			}
 		}
 	}
