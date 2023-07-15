@@ -14,6 +14,7 @@ int main(void)
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j <= 10; j++)
+		{
 			if (i > j)
 				break;
 			for (k = 0; k <= 10; k++)
@@ -22,6 +23,7 @@ int main(void)
 					break;
 				printf("%d%d%d", i, j, k);
 			}
+		}
 	}
 	return (0);
 }
