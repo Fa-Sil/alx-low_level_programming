@@ -13,14 +13,12 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = i; j <= 10; j++)
+		for (j = (i + 1); j < 10; j++)
 		{
 			if (i < j)
 				break;
-			for (k = j; k <= 10; k++)
+			for (k = (j + 1); k < 10; k++)
 			{
-				if (j < k)
-					break;
 				printf("%d%d%d, ", i, j, k);
 			}
 		}
