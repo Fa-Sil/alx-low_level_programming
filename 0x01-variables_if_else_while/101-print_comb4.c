@@ -19,7 +19,7 @@ int main(void)
 			{
 				if (i == 7 && j == 8 && k == 9)
 				{
-					printf("%d%d%d", i, j, k);
+					printf("%d%d%d ", i, j, k);
 					break;
 				}
 				printf("%d%d%d, ", i, j, k);
