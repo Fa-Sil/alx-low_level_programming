@@ -1,4 +1,4 @@
-#include<stdlib.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -12,5 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-	putchar('\n');
+	iputchar('\n');
 }
