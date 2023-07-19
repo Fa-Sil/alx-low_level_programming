@@ -1,14 +1,22 @@
 #include "main.h"
+
 /**
- * _abs - return the absolute value of a given integer.
- * @i: value use to find the absolute value.
+ * print_last_digit - will print the last digit of a given number.
+ * @n: Number used to find the last digit.
  *
+ * Description: will print the last digit of a given number. If the
+ * number is a negative the value will be return unsigned int.
  *
- * Return: the absolute value.
+ * Return: last digit as int value.
  */
-int _abs(int i)
+int print_last_digit(int n)
 {
-if (i < 0)
-return (-i);
-return (i);
+n %= 10;
+if (n < 0)
+{
+n *= -1;
 }
+_putchar('0' + n);
+return (n);
+}
+
