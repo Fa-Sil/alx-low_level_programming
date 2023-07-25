@@ -6,7 +6,10 @@
  */
 int _strlen(char *s)
 {
-	String x = &s;
-	
-	return (strlen(x));
+	size_t length = 0;
+
+	while (*str++)
+		length++;
+
+	return (length);
 }
