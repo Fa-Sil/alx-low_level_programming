@@ -1,17 +1,20 @@
 #include "main.h"
+
 /**
- * puts2 - Prints one char
- * @str: The string containing characters
- */
+ * puts2 - prints string
+ * @str: string param
+ *
+ * Return: void
+ **/
 void puts2(char *str)
 {
-	int index = 0, len = 0;
+int i = 0;
+while (str[i] != '\0')
+{
+if (i % 2 == 0)
+_putchar(str[i]);
+i++;
+}
 
-	while (str[index++])
-		len++;
-
-	for (index = 0; index < len; index += 2)
-		_putchar(str[index]);
-
-	_putchar('\n');
+_putchar('\n');
 }
