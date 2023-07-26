@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * strncpy - copies a string
+ * _strncpy - copies a string
  * @dest: destination param
  * @src: source file to be concatenated from.
  * @n: number of bytes to be concatenated
+ *
+ * Return: concatenated value
  */
 char *_strncpy(char *dest, char *src, int n)
 {
