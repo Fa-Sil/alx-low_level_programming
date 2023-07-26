@@ -3,22 +3,20 @@
  * strncpy - copies a string
  * @dest: destination param
  * @src: source file to be concatenated from.
+ * @n: number of bytes to be concatenated
  */
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
 {
-	while (((*s1 != '\0') && (*s2 != '\0')) && (*s1 == *s2))
-	{
-		s1++;
-		s2++;
-	}
+int i;
 
-	if (*s1 == *s2)
+	for (i = 0; i < n && *(src + i); i++)
 	{
-		return (0);
+		*(dest + i) = *(src + i);
 	}
+	for (; i < n; i++)
+	{
+	*(dest + i) = '\0';
+	}
+	return (dest);
 
-	else
-	{
-		return (*s1 - *s2);
-	}
 }
